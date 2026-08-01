@@ -3,10 +3,6 @@
 // question 2 : sum of first  10 even no.
 //  sum of even no. b/t 20 and 40 (both included)
 
-
-
-
-
 #include <iostream>
 using namespace std;
 int main()
@@ -22,29 +18,25 @@ int main()
     // }
     // cout << sum ;
 
+    // question 2: sum of first  10 even no.
 
+    // int sum = 0;
+    // for (int i=2; i<=20; i+=2)
+    // {
+    //     sum += i;
 
-// question 2: sum of first  10 even no.
-   
+    // }
+    // cout << "sum = "<< sum;
+
+    // question :3 sum of even no. b/t 20 and 40 (both included)
+
     int sum = 0;
-    for (int i=2; i<=20; i+=2)
+    for (int i=20; i<=40; i+=2)
     {
         sum += i;
-
     }
-    cout << "sum = "<< sum;
 
+    cout << "sum ="<< sum; 
 
-
-
-
-
-   
-
-
-
-
-
-
-    return 0;
+        return 0;
 }
