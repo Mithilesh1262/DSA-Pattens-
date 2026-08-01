@@ -1,35 +1,27 @@
-// input, output, variables, maths 
+// input, output, variables, maths
 
-// 1. take  3 no. and print their prodducts..
-// 2. take 2 no.  and print their average..
+// 1. take 3 no. and print their products..
+// 2. take 2 no. and print their average..
 
 #include <iostream>
 using namespace std;
+
 int main()
 {
-
     // question 1
-
-    int  a;
-    int b;
-    int c;
-     cout<< "enter 3 no." << endl;
-     cin>>a>>b>>c;
-     int d = a*b*c;
-     cout<< d;
-
-
+    int a, b, c;
+    cout << "enter 3 no." << endl;
+    cin >> a >> b >> c;
+    int d = a * b * c;
+    cout << d << endl;
 
     // Question 2
+    int e, f;
+    cout << "enter two no" << endl;
+    cin >> e >> f;
+    int average = (e + f) / 2;
+    cout << average << endl;
 
-    int a;
-    int b;
-
-    cout<<"enter two no"<<endl;
-    cin>> a>>b;
-    int avarage = (a+b)/2;
-    cout<<average;
-
-
+    return 0;
 }
 
