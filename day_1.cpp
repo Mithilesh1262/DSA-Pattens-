@@ -22,7 +22,13 @@ int main()
 
     // Question 2
 
-    
+    int a;
+    int b;
+
+    cout<<"enter two no"<<endl;
+    cin>> a>>b;
+    int avarage = (a+b)/2;
+    cout<<average;
 
 
 }
