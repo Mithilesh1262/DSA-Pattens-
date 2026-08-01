@@ -13,23 +13,27 @@ int main()
 {
 
     // question 1: sum of 10 numbers
-    int n, sum = 0;
-    for (int i = 1; i <= 10; i++)
-    {
-        cout << "Enter number " << i << ": ";
-        cin >> n;
-        sum += n;
-    }
-    cout << "Sum = " << sum << endl;
+
+    // int sum =0;
+    // for(int i = 1; i<=10; i++)
+    // {
+    //     sum += i;
+
+    // }
+    // cout << sum ;
+
+
 
 // question 2: sum of first  10 even no.
-     int sum = 0;
-     for (int i= 0; i<=10; i++);
-     {
-        sum += i*2;
-     }
+   
+    int sum = 0;
+    for (int i=2; i<=20; i+=2)
+    {
+        sum += i;
 
-     
+    }
+    cout << "sum = "<< sum;
+
 
 
 
